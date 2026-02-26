@@ -27,11 +27,17 @@
 using namespace std;
 
 // Function declarations go here...
+void printIntro();
 
 int main() {
     cout << "=== SPRING BREAK ZOMBIE SURVIVAL HELPER ===" << endl;
+    printIntro();
+   
+}
 
-    // We'll call our functions here
-
-    return 0;
+void printIntro(){
+    cout<<"\nYou were hoping for a relaxing spring break at the beach..."<<endl;
+    cout<<"But suddenly, zombie outbreak sirens start blaring!!"<<endl;
+    cout<<"You decide to track zombie sightings and estimate your chance of survival."<<endl;
+    cout<<"Let's begin!\n"<<endl;
 }
